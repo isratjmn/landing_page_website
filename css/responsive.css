@@ -1,0 +1,183 @@
+/* Laptop*/
+
+@media (max-width: 1200px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    }   
+    .sec5 {
+        height:600px;
+        text-align: center;
+        padding: 15px 20px 20px 20px; 
+        background-color: rgb(219, 210, 210);
+        overflow: hidden;
+        border-bottom: solid #171033 5px;
+    }
+    .s5box {
+        margin-right: 40px;
+        border-right: 1.5px solid rgb(66, 9, 9);
+        border-bottom: 1.5px solid rgb(66, 9, 9);
+        border-top: 1px solid rgb(228, 224, 224);
+        border-left: 1px solid rgb(228, 224, 224);
+        width: 29.33%;
+        float: left;
+        padding-bottom: 10px;
+    }
+    .s5box p{
+        color: #2e1111;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 28px;
+    }
+    .sec6 {
+        height: 200px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+        
+    }
+}
+
+/* Tablet*/
+
+@media (max-width: 992px){
+    .s2box {
+        width: 31.33%;
+        float: left;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+    .s2icon {
+        width: 10%;
+        float: left;
+    }
+    .s2icon i{
+        color: rgb(11, 83, 179);
+        font-size: 20px;
+    }
+    .s2content h3 {
+        font-size: 25px;
+        color:rgb(19, 22, 190);
+    }
+    .s2content p{
+        color: #888888;
+        font-size: 20px;
+        padding-right: 10px;
+        line-height: 28px;   
+    }
+    .sec4 {
+        margin-top: 5px;
+        padding: 5px 10px 20px 50px; 
+        height: 300px;
+    }
+    .s4box {
+        float: left;
+        margin-right: 10px;
+    }
+    .s4content h3 {
+        font-size: 20px;
+        color:rgb(0, 0, 0);
+        text-align: center;
+    }
+    .s4icon {
+        color: rgb(128, 22, 22);
+        font-size: 30px;
+        width: 90%;
+        float: center;
+        padding-bottom: 5px;
+        text-align: center;   
+    }
+    .sec5 {
+        height:600px;
+        text-align: center;
+        padding: 10px 20px 5px 30px; 
+        
+    }
+    .s5box {
+        margin-right: 30px;
+        border-right: 1.5px solid rgb(66, 9, 9);
+        
+        width: 29.33%;
+        float: left;
+        padding-bottom: 10px;
+    }
+    .s5box p{
+        color: #2e1111;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        line-height: 28px;
+    }
+    .sec6 {
+        height: 200px;
+        text-align: center;
+        padding: 20px; 
+        background-color: rgb(255, 255, 255);   
+    }
+    .sec7 {
+        background: #742710;
+        border-top: 8px solid rgba(7, 5, 14, 0.787);
+        height: 60px;
+        padding: 30px 0px 100px 0px; 
+    }
+}
+
+/* Large Phone*/
+
+@media (max-width: 767px){
+    .menubar {
+        padding: 0 10%;
+        background:rgb(32, 32, 37);
+        height: 80px;   
+    }
+    .navItem li a {
+        text-decoration: none;
+        padding: 0px 10px;
+        color: rgb(226, 210, 210);
+    }
+    .sec1 p {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 5px;
+        padding: 10px;
+        }
+    .sec2 {
+        background: #ffffff;
+        padding: 40px 30px 20px 40px;
+    }
+    
+    .sec3 {
+        background-color: rgb(218, 222, 241);
+        overflow: hidden;
+        padding: 5px 40px 15px 5px; 
+    }
+    
+    .sec5 {
+        height:700px;
+        border-bottom: solid #733724 5px;
+        }
+    .s5box {
+        margin-right: 10px;
+        width: 30.33%;
+        float: center;
+        padding-bottom: 10px;
+        }
+    .s5box p{
+        color: #22150d;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 28px;
+        }
+    .sec6 {
+        height: 200px;
+        text-align: center;
+        padding: 20px; 
+        background-color: rgb(255, 255, 255);
+            
+        }    
+    }
